@@ -1,4 +1,4 @@
-# Ning-Compress
+# LZF-Compress
 
 ## Overview
 
