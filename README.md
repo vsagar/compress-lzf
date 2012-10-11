@@ -2,7 +2,7 @@
 
 ## Overview
 
-Ning-compress is a Java library for encoding and decoding data in LZF format, written by Tatu Saloranta (tatu.saloranta@iki.fi)
+Compress is a Java library for encoding and decoding data in LZF format, written by Tatu Saloranta (tatu.saloranta@iki.fi)
 
 Data format and algorithm based on original [LZF library](http://freshmeat.net/projects/liblzf) by Marc A Lehmann
 
@@ -35,7 +35,7 @@ Finally, note that LZF encoded chunks have length of at most 64 kB; longer conte
 
 ## Use as command-line tool
 
-Note that resulting jar is both an OSGi bundle, and a command-line tool (has manifest that points to 'com.ning.compress.lzf.LZF' as the class having main() method to call).
+Note that resulting jar is both an OSGi bundle, and a command-line tool (has manifest that points to 'com.infinitemonkeys.compress.lzf.LZF' as the class having main() method to call).
 
 This means that you can use it like:
 
